@@ -1,0 +1,4 @@
+Fase VERDE de TDD. Implementa src/slug.py con el código mínimo para que pasen
+los tests de tests/. Los tests son la especificación: no los cambies, no los saltes
+y no detectes casos concretos de los tests (nada de if texto == ...).
+Solo biblioteca estándar. Ejecuta los tests y enséñame la salida.

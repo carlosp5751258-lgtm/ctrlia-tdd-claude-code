@@ -1,0 +1,1 @@
+Refactoriza slug para que la expresión regular esté compilada a nivel de módulo y tenga un nombre claro; ejecuta los tests después.

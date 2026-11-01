@@ -1,0 +1,7 @@
+Fase ROJA de TDD. Escribe SOLO tests en tests/test_slug.py (unittest) para src/slug.py:
+- slug('Canción Ñandú 2026') == 'cancion-nandu-2026'
+- espacios repetidos y bordes se colapsan: '  Hola   Mundo  ' -> 'hola-mundo'
+- los signos de puntuación se eliminan: '¿Qué tal?' -> 'que-tal'
+- cadena vacía -> ''
+NO toques src/. Ejecuta python3 -m unittest discover -s tests -t . y confirma que fallan
+por NotImplementedError, no por errores de sintaxis o de importación.
