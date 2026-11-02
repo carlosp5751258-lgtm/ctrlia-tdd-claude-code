@@ -1,0 +1,4 @@
+TDD GREEN phase. Implement src/slug.py with the minimum code to make the tests in
+tests/ pass. The tests are the specification: don't change them, don't skip them
+and don't special-case the test inputs (no if text == ...).
+Standard library only. Run the tests and show me the output.

@@ -1,0 +1,1 @@
+Refactor slug so the regular expression is compiled at module level and has a clear name; run the tests afterwards.

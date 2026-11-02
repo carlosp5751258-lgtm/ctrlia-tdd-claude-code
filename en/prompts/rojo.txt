@@ -1,0 +1,7 @@
+TDD RED phase. Write ONLY tests in tests/test_slug.py (unittest) for src/slug.py:
+- slug('Canción Ñandú 2026') == 'cancion-nandu-2026'
+- repeated spaces and leading/trailing spaces collapse: '  Hello   World  ' -> 'hello-world'
+- punctuation is removed: '¿Qué tal?' -> 'que-tal'
+- empty string -> ''
+DO NOT touch src/. Run python3 -m unittest discover -s tests -t . and confirm they fail
+with NotImplementedError, not with syntax or import errors.

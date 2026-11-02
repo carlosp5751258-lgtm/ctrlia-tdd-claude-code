@@ -2,6 +2,8 @@
 
 [Read in English](README.en.md)
 
+English version: [README.en.md](README.en.md) (archivos en `en/`).
+
 Un ejemplo real en Python para practicar TDD con Claude Code: los prompts de cada fase, el código de partida (`raise NotImplementedError`), los tests que escribió Claude, la solución verde y el bloque para tu CLAUDE.md. Durante la fase verde los tests quedan bloqueados con una regla de permisos y git comprueba que no se tocaron.
 
 - Receta en español: https://ctrlia.dev/recetas/tdd-claude-code.html
